@@ -36,8 +36,9 @@ body{
 }
 .curtain{
     position:absolute;
-    width:80%;
-    height:20%;
+    left:-5px; 
+    width:150px;
+    height:100%;
     background-color:var(--background_lighter); 
     border:2px solid var(--secondary);
     border-radius:20px; 
