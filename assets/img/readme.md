@@ -1,1 +1,0 @@
-credits to https://pictogrammers.com/ for some of the icons
