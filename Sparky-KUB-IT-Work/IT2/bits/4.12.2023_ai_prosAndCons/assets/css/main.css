@@ -1,0 +1,101 @@
+:root{
+    --topbarWidth:80px;
+    --text: #ffffff;
+    --text_bright:#ffc73b; 
+    --background: #2B2B31;
+    --background_lighter : #46454f; 
+    --primary: #c6bdff;
+    --secondary: #f2c2ff;
+    --secondary_darker : #564d59; 
+    --accent: #e2a3ff;
+    --SubText:#d5cffe;
+}
+#topbar{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:var(--topbarWidth);
+    background-color:var(--background_lighter);
+
+}
+#content{
+    position:absolute;
+    top:var(--topbarWidth);
+    left:0px;
+    width:100%;
+    height:calc(100% - var(--topbarWidth));
+    background-color:var(--background);
+}
+#ContentArea{
+    position:absolute;
+    top:0px;
+    left:50%;
+    width:800px;
+    transform:translate(-50%);
+    height:100%;
+    background-color:var(--background);
+}
+.text{
+    color:var(--primary);
+    font-size:20;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a:link{
+    color:var(--secondary);
+
+}
+a:visited {
+    color:var(--accent);
+}
+  
+a:hover {
+    color:var(--accent);
+}
+.img{
+
+    width:500px;
+    height:auto;
+}
+.button{
+    position:absolute;
+    top:0px;
+    width:100px;
+    height:100%;
+    background-color:var(--secondary_darker);
+    color:white;
+    font-size:20;
+    border:none;
+    cursor:pointer;
+}
+.button:hover{
+    background-color:var(--background);
+    animation-name:Hover;
+    animation-duration: 200ms;
+    animation-timing-function:ease-in-out;
+}
+@keyframes Hover{
+    from{
+        background-color:var(--secondary_darker);
+    }
+    to{
+        background-color:var(--background);
+        
+    }
+}
+#LeftNav{
+    left:0px;
+}
+#RightNav{
+    right:0px;
+}
+
+#PageHeader{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color:var(--primary);
+    font-size:40;
+    font-family:Arial, Helvetica, sans-serif;
+}

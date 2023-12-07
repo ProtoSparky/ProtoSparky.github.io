@@ -1,0 +1,129 @@
+{
+    "Hva er KI?":{
+        "0":{
+            "tx":"Kunstig intelligens (KI) er en teknologi som bruker algoritmer, maskinlæring, probabilistiske modeller og store datasett til å utføre og automatisere en rekke oppgaver.",
+            "class":"text"
+        },
+        "1":{
+            "tx":"Per i dag brukes KI innenfor en rekke samfunnsområder, som forsvar, etterretning, grensekontroll, finans, helse, diagnostikk og behandling, politiarbeid, forvaltning, romfart, industri, infrastruktur og transport",
+            "src":"https://www.uib.no/fag/dannelsesemner/122306/kunstig-intelligens-visjoner-realiteter-og-framtidige-konsekvenser-vit216",
+            "class":"text"
+        },
+        "2":{
+            "img":"ai",
+            "src":"https://www.uib.no/sites/w3.uib.no/files/styles/content_main_wide_1x/public/media/illustrasjonsbilete_vit216.jpg?itok=T0k2fUaf&timestamp=1576245537",
+            "class":"img",
+            "style":{
+                "width":300
+            }
+            
+        }
+    },
+    "Det positive med KI":{
+        "0":{
+            "tx":"KI kan ha mange positive konsekvenser for samfunn og individ. For eksempel kan KI bidra til å løse komplekse problemer og utfordringer som mennesker ikke kan løse alene. KI kan også øke effektiviteten og produktiviteten i mange sektorer, og dermed frigjøre tid og ressurser som kan brukes til andre formål",
+            "class":"text"
+        },
+        "1":{
+            "tx":"KI kan også bidra til å redusere risikoen for menneskelige feil og forbedre sikkerheten i mange sammenhenger",
+            "src":"https://www.forskningsradet.no/forskningspolitikk-strategi/ltp/vi-mener/ki-barekraftig-samfunn/",
+            "class":"text"
+        },
+        "2":{
+            "tx":"<br>",
+            "class":"text"
+        },
+        "3":{
+            "tx":"Forskning på KI vil komme næringslivet og samfunnet til nytte. For eksempel bruker helsevesenet stadig oftere KI for å håndtere store datamengder og rutineoppgaver.",
+            "class":"text"
+        },
+        "4":{
+            "tx":"KI analyserer nå røntgenbilder for beinbrudd og effektiviserer jobben med å se etter tegn på kreft. Vi har flere norske helsebedrifter som er langt fremme på KI. Eksempelvis DoMore Diagnostics AS som kommer fra forskningsmiljøet på Oslo universitetssykehus.",
+            "class":"text"
+        },
+        "5":{
+            "tx":"De utvikler KI for å stille raskere og sikrere diagnose for tykktarmskreft. KI er ikke nødvendigvis et mål i seg selv, men er et godt verktøy for å gi bedre og mer effektiv pasientbehandling.",
+            "class":"text"
+        },
+        "6":{
+            "img":"Chatgpt",
+            "src":"https://coincodex.com/en/resources/images/admin/news/which-chat-gpt-stock/chat-gpt-stock.png:resizeboxcropjpg?1200x650.jpg",
+            "style":{
+                "width":300
+            }
+        }
+
+    },
+    "Ki sine negative sider":{
+        "0":{
+            "tx":"Samtidig kan KI også ha negative konsekvenser for samfunn og individ. For eksempel kan KI føre til arbeidsledighet og økonomisk ulikhet hvis den erstatter menneskelige arbeidere i stor skala. KI kan også føre til diskriminering og urettferdighet hvis den er basert på skjevhet i datasettene eller algoritmene som brukes",
+            "class":"text"
+        },
+        "1":{
+            "tx":"KI kan også føre til utfordringer knyttet til personvern, tillit, sikkerhet og bærekraft.",
+            "src":"https://ndla.no/subject:1:fb6ad516-0108-4059-acc3-3c5f13f49368/topic:1:f77c8919-a904-41b3-88a4-34281c13627c/topic:1:c0686776-6857-4ee6-b25e-e1e385309570/resource:30ed7612-c128-4159-8864-5ffa005e8946",
+            "class":"text"
+        },
+        "2":{
+            "tx":"Det er derfor viktig å forske på digitale teknologier og digital sikkerhet og hvordan disse kan brukes til innovasjon i bedrifter og i offentlig sektor. Samtidig må vi forske for å forstå konsekvensene av kunstig intelligens.",
+            "class":"text"
+        },
+        "3":{
+            "tx":"På denne måten kan vi høste av mulighetene i de nye teknologiene og unngå negative og utilsiktede konsekvenser.",
+            "class":"text"
+        },
+        "4":{
+            "tx":"<br>"
+        },
+        "5":{
+            "tx":"Regjeringen har lansert en satsing på kunstig intelligens (KI) og digital sikkerhet og vil bruke 1 milliard kroner til forskning på feltet de neste fem årene.",
+            "class":"text"
+        },
+        "6":{
+            "tx":"Dette vil få stor betydning for samfunnsutviklingen videre. Forskningsrådet får ansvaret for satsingen.",
+            "class":"text"
+        },
+        "7":{
+            "tx":"«Vi vil utforme satsingen i tett dialog med fagmiljøene i forkant og underveis, for å sikre at den treffer planken fra start»",
+            "class":"text",
+            "src":"https://www.forskningsradet.no/forskningspolitikk-strategi/ltp/vi-mener/ki-barekraftig-samfunn/"
+        }
+        
+    },
+    "Oppsummering":{
+        "0":{
+            "tx":"I sum kan KI være en kraftig teknologi som kan gi store fordeler for samfunn og individ. Samtidig er det viktig å være oppmerksom på de potensielle negative konsekvensene og å jobbe for å minimere dem.",
+            "class":"text"
+        },
+        "1":{
+            "tx":"Det er også viktig å ha en åpen og inkluderende debatt om bruken av KI og å involvere et bredt spekter av interessenter i utviklingen og implementeringen av KI",
+            "src":"https://www.khrono.no/kunstig-intelligens-er-en-fundamental-samfunnsutfordring/810595",
+            "class":"text"
+        }
+    },
+    "Kilder":{
+        "0":{
+           "tx": "Kunstig intelligens: Visjoner, realiteter og framtidige konsekvenser (VIT216) - Universitetet I bergen",
+           "src":"https://www.uib.no/fag/dannelsesemner/122306/kunstig-intelligens-visjoner-realiteter-og-framtidige-konsekvenser-vit216",
+           "class":"text"
+           
+        },
+        "1":{
+            "tx": "Kunstig intelligens for et bedre og bærekraftig samfunn - Forskningsrådet",
+            "src":"https://www.forskningsradet.no/forskningspolitikk-strategi/ltp/vi-mener/ki-barekraftig-samfunn/",
+            "class":"text"
+        },
+        "2":{
+            "tx": "Kunstig intelligens - gullgruve eller minefelt? - NDLA",
+            "src":"https://ndla.no/subject:1:fb6ad516-0108-4059-acc3-3c5f13f49368/topic:1:f77c8919-a904-41b3-88a4-34281c13627c/topic:1:c0686776-6857-4ee6-b25e-e1e385309570/resource:30ed7612-c128-4159-8864-5ffa005e8946",
+            "class":"text"
+        },
+        "3":{
+            "tx": "Kunstig intelligens er en fundamental samfunnsutfordring - Khrono",
+            "src":"https://www.khrono.no/kunstig-intelligens-er-en-fundamental-samfunnsutfordring/810595",
+            "class":"text"
+        }
+    }
+    
+    
+}

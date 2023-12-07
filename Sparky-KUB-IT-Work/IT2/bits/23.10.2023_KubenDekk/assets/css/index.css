@@ -1,0 +1,188 @@
+body{
+    background-color:#A393BF;
+}
+#webpage{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#A393BF;
+
+}
+.nav{
+    position:absolute;
+}
+#topbar{
+    background-color:453750; 
+    width:100%;
+    top:0px;
+    left:0px;
+    height:80px;
+}
+button{
+    background-color:#9882ac;
+    border:none;
+    
+}
+button:hover{
+    background-color:#453750;
+    color:white;
+    cursor:pointer;
+}
+
+/*Searh*/
+#search{
+    top:5px;
+    right:100px;
+    height:50%;
+    width:300px;   
+}
+
+#SearchBox{
+    width:150px;
+}
+#SearchButton{
+    right:10px;
+}  
+/*Searh*/ 
+
+/* SORT*/
+#Sort{
+    right:100px;
+    top:50%;
+    height:50%;
+    width:300px;    
+}
+#ApplySort{
+    right:10px;
+}
+#SortSelect{
+    width:150px
+}
+/* SORT*/
+
+/* content*/
+.content{
+    position:absolute;
+    top:80px;
+    left:0px;
+    width:100%;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.AddToCart{
+    position:absolute;
+    margin-top:-15px;
+    margin-left:20px;
+    width:30px; 
+    height:auto;
+}
+.AddToCart:hover{
+    cursor:pointer;
+}
+.TableTire{
+    width:70px;
+    height:auto;
+}
+
+/*Checkout*/
+#Checkout{
+    right:0;
+    top:0px;
+    width:100px;
+    height:80px;
+    
+}
+#CheckoutCart{
+    height:50px;
+    width:auto;
+    bottom:15px;
+    left:25px;
+}
+#CheckoutCart:hover{
+    cursor:pointer;
+}
+
+#CheckoutItems{
+    color:white;
+    top:25px;
+    left:48px;
+    font-weight:bold;
+    font-size:small;
+}
+
+#CheckoutWindow{
+    background-color:#9882AC;
+    top:80px;
+    right:0px;
+    width:400px;
+    height:500px;
+    z-index:10;
+}
+#CheckoutTable{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+}
+
+#About{
+    position:absolute;
+    top: 60%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#453750;
+    width:600px;
+    height:400px;
+    z-index:999;
+}
+#blur{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color: #a393bf;
+    filter:blur(5px);
+    opacity:0.7;
+    z-index:100;
+}
+#CloseBTN{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:20px;
+    height:auto;
+    cursor:pointer;
+
+}
+#AboutText{
+    position:absolute;
+    top:80px;
+    left:20px;
+    width:570px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tireIcon{
+    margin-top:50px;
+    width:200px;
+    height:auto; 
+}
+.checkout_btn{
+    background-color:#453750;
+    color:white;
+}
+#EditProductWindow{
+    position:absolute;
+    top: 60%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#453750;
+    width:600px;
+    height:400px;
+    z-index:999;
+
+}

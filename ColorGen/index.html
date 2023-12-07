@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./assets/js/Spark_eng.Various.js"></script>
+        <script type="text/javascript" src="./assets/js/main.js"></script>
+        <link rel="stylesheet" href="./assets/css/main.css">
+
+    </head>
+    <body>
+        <div id="topbar">Hex to CSS filter</div>
+        <div id="content">
+            <input id="CurrentHEX" placeholder="Current hex color">
+            <input id="WantedHEX" plaecholder="Wanted hex color">
+            <button id="CheckHEX" onclick="CheckHEX()">
+                Create css filter
+            </button>
+            <div id="CurrentHEXColor">
+                current hex color
+            </div>
+            <div id="WantedHEXColor">
+                Wanted hex color
+            </div>
+            <div id="InterpolatedHEXColor">
+                Interpolated color 
+            </div>
+            
+        </div>
+
+    </body>
+    <script>init();</script>
+</html>

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="./assets/js/index.js"></script>
+        <script type="text/javascript" src="./assets/js/Spark_eng.Various.js"></script>
+        <script type="text/javascript" src="./assets/js/SummonTableNew.js"></script>
+        <script type="text/javascript" src="./assets/js/db.js"></script>
+        <link rel="stylesheet" href="./assets/css/index.css">
+    </head>
+    <body>
+        <div id="webpage">
+            <div class="nav" id="topbar">
+                <div class="nav" id="search">
+                    <input class="nav" id="SearchBox" placeholder = "Search:">
+                    <button onclick="searchItems()" class="nav" id="SearchButton">Searh items</button>
+                </div>
+                <div class="nav" id="Sort">
+                    <select name="Sort" class="nav" id="SortSelect">
+                        <option value="TT_all" selected disabled hidden>Sort by:</option>
+                        <option value="TT_all">Unsorted</option>
+                        <option value="Pr_LTH">Price low to high</option>
+                        <option value="Pr_HTL">Price high to low</option>
+                        <option value="DiaLTH">Diameter small to large</option>
+                        <option value="DiaHTL">Diameter large to small</option>
+                        <option value="TT_sum">Tire type: Summer</option>
+                        <option value="TT_win">Tire type: Winter (w/o spikes)</option>
+                        <option value="TT_win_sp">Tire type: Winter (w spikes)</option>
+                        <option value="TT_whole">Tire type: Universal</option>
+                        <option value="RM">All rims</option>
+                    </select>   
+                    <button onclick="ApplySort()" class="nav" id="ApplySort">Apply sort</button>                
+                </div>
+                <div class="nav" id="Checkout">
+                    <img src="./assets/img/cart-outline.svg" class="nav" id="CheckoutCart" onclick="DisplayCheckout()">
+                    <div class="nav" id="CheckoutItems"></div>
+                </div>
+                <div class="nav" id="UpdateProd">
+                    <button onclick="UpdateProducts()" class="nav" id="UpdateProdBTN">Update products</button>
+                </div>
+
+            </div>
+            <div class="content" id="content_1">
+                
+                <div id="TableArea">
+
+                </div>
+                <div id="AboutWindow">
+
+                </div>
+                <div id="EditProduct">
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+    <script>
+        init();
+    </script>
+</html>
