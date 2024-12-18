@@ -16,7 +16,9 @@ var Store = {
     "sWindow_open":false,
     "steps":{
         "0":{
-            "current_step":0
+            "current_step":0,
+            "firstname":"",
+            "lastname":""
         }
     },
     "stp1": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 

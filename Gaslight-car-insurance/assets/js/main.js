@@ -207,17 +207,38 @@ function sWindow(){
         for(let pointer = 0; pointer < new_length; pointer ++){
             const btn = document.createElement("button");
             btn.innerHTML = new_array[pointer];
+            btn.addEventListener("click", function(){
+                type_letter(new_array[pointer]);
+                //update divs
+                if(Store.steps["0"].current_step == 0){
+                    //firstname
+                    document.getElementById("stp1_firstname").innerHTML = Store.steps["0"].firstname;
+                }
+                else{
+                    document.getElementById("stp1_lastname").innerHTML = Store.steps["0"].lastname;
+                }
+            });
             container.appendChild(btn);
         }
 
         const btn = document.createElement("button");
         btn.innerHTML = "OK";
+        btn.addEventListener("click",function(){
+            Store.steps["0"].current_step = Store.steps["0"].current_step + 1;
+        });
         container.appendChild(btn);
 
 
     }
-    function type_letter(){
-        
+    function type_letter(letter){
+        if(Store.steps["0"].current_step == 0){
+            //add to firstname
+            Store.steps["0"].firstname = Store.steps["0"].firstname.concat(letter);
+        }
+        else{
+            //add to lastname
+            Store.steps["0"].lastname = Store.steps["0"].lastname.concat(letter);
+        }
     }
 
 }
