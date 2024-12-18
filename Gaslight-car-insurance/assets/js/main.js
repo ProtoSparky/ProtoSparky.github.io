@@ -41,7 +41,11 @@ function spawnBG(){
     login_btn.id = "tpbar_login";
     login_btn.innerHTML = "Login/Register";
     login_btn.addEventListener("click",function(){
-        sWindow();
+        if(Store.sWindow_open == false){
+            sWindow();
+            Store.sWindow_open = true;
+        }
+        
     });
     topbar.appendChild(login_btn);
 
