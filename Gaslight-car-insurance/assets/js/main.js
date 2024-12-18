@@ -175,7 +175,7 @@ function sWindow(){
     swindow.appendChild(stp1_header);
 
     const subhead = document.createElement("div");
-    subhead.innerHTML = "Please enter your name to register (use the keyboard below to type out your name, then click 'OK' to go to the next step)";
+    subhead.innerHTML = "Please enter your name to register (use the keyboard below to type your name, then click 'OK' to go to the next step)";
     subhead.id = "stp1_subhead";
     swindow.appendChild(subhead);
 
@@ -243,6 +243,9 @@ function sWindow(){
             //add to lastname
             Store.steps["0"].lastname = Store.steps["0"].lastname.concat(letter);
         }
+        document.getElementById("stp1_keyboard_cont").innerHTML = "";
+        spawnBTNS();
+
     }
 
 }
