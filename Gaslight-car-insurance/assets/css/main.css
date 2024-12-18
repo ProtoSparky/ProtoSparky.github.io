@@ -1,0 +1,277 @@
+:root{
+    --topbarWidth:80px;
+    --col_normalTXT:#ecf0f1;
+    --col_bold_TXT:#bdc3c7; 
+    --col_highlight_TXT:#f39c12;
+    --col_link_TXT:#3498db; 
+    --col_icon:#bfc5c4; 
+    --col_btn:#009cda; 
+    --col_success:#00d573; 
+    --col_error:#ff2225; 
+    --col_bg_content:#1b1b1e; 
+    --col_bg_lighter:#2b2b31; 
+    --col_bg_div:#ebf1f0; 
+    --col_bg_div1:#89a6a1;
+    --CornerRad:4px; 
+    --ElementPadding:8px;    
+}
+
+
+@font-face {
+    font-family: main_font;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+.text{
+    font-family:main_font; 
+}
+
+
+button:hover {
+    background-color: var(--col_highlight_TXT);    
+}
+
+#Fade2red{
+    background-color:var(--col_bg_content);
+    transition: background-color 0.3s ease-in-out;
+}
+#Fade2red:hover{
+    background-color:var(--col_error);
+}
+
+
+
+
+/*bar animation*/
+@keyframes BarMove{
+    0%{
+        right:-400px;
+    }
+    10%{
+        right:0px;
+    }
+    /*Do nothing ater this*/
+    90%{
+        right:0px;
+    }
+    100%{
+        right:-400px; 
+    }
+}
+
+#tpbar{
+    position:fixed;
+    height:6em;
+    width:100%;
+    top:0px;
+    left:0px; 
+    background-color:#e56e0b; 
+    font-family:main_font;
+    z-index:999;
+}
+#ad_slide{
+    position:absolute;
+    top:6em;
+    left:0px;
+    height:30em;
+    width:100%;
+}
+#div_trig{
+    position:absolute;    
+    width: 0;
+    height: 0;
+    right:0px;
+    border-style: solid;
+    border-color: transparent #e56e0b transparent transparent;
+    z-index:2;
+}
+#div_trig_img{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    object-fit:cover; 
+    z-index:1; 
+}
+#div_trig_txt{
+    position:absolute;
+    top:50%;
+    left:35%;
+    color:white;
+    font-size:3.5em;
+    transform:translate(-50%, -50%); 
+    z-index:3; 
+    font-weight:bold;
+    background-color:#00000063
+}
+#tpbar_btn_cont{
+    position:absolute;
+    display:flex;
+    height:100%;
+    width:60em;
+    left:2em;
+    justify-content:space-between;
+    align-items: center;
+}
+.tbpar_btns{
+    font-size:1.5em; 
+    color:white;
+    font-weight:bold;  
+    cursor:pointer;  
+}
+.tbpar_btns:hover{
+    text-decoration: underline;
+}
+
+#tpbar_logo{
+    height:3em;
+}
+
+#tpbar_login{
+    position:absolute;
+    top:50%;
+    right:2em;
+    transform:translate(0,-50%);
+    color:white;
+    font-weight:bold;
+    font-size:1.5em;
+}
+#tpbar_login:hover{
+    text-decoration: underline;
+}
+
+#insur_plan_head{
+    font-family:main_font;
+    position:absolute;
+    top:19.5em;
+    left:2em;
+    color:black;
+    font-size:2em;
+    font-weight:bold;
+    z-index:9; 
+}
+
+#insur_plan{
+    position:absolute;
+    width:110em;
+    left:4em; 
+    top:35em;
+    height:40em;
+    justify-content:space-between;
+    align-items: center;
+    display:flex;
+    font-family:main_font;
+
+}
+.insur_plans{
+    width:20em;
+    height:20em;
+    background-color:#a4a4a4;
+    position:relative;
+}
+.insur_plan_header{
+    position:absolute;
+    left:50%;
+    top:8em;
+    transform:translate(-50%, 0); 
+    font-size:1.5em;
+    text-wrap:nowrap;
+    font-weight:550;
+    color:white; 
+}
+.insur_plan_icon{
+    position:absolute;
+    filter: invert(52%) sepia(37%) saturate(5924%) hue-rotate(4deg) brightness(97%) contrast(91%);
+    top:1.5em;
+    left:50%;
+    width:10em;
+    transform:translate(-50%,0); 
+}
+.insur_plan_next{
+    position:absolute;
+    filter: invert(52%) sepia(37%) saturate(5924%) hue-rotate(4deg) brightness(97%) contrast(91%);
+    top:15em;
+    left:50%;
+    width:3em;
+    transform:translate(-50%,0); 
+    cursor:pointer;
+}
+.insur_plan_next:hover{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(293deg) brightness(105%) contrast(105%);
+}
+
+
+#swindow{
+    position:absolute;
+    top:32em;
+    left:50%;
+    width:60em;
+    height:50em; 
+    border-radius:1em; 
+    transform:translate(-50%, -50%);
+    background-color : var(--col_bold_TXT);
+    z-index:9999;
+    font-family:main_font;
+}
+
+.stp_header{
+    position:absolute;
+    top:2em;
+    left:50%;
+    transform:translate(-50%, 0);
+    color:black;
+    font-size:xx-large;
+    text-wrap:pretty; 
+    
+}
+#stp1_subhead{
+    position:absolute;
+    top:10em;
+    left:50%;
+    transform:translate(-50%, 0);
+    color:black;
+    font-size:large;
+}
+
+.stp1_name{
+    position:absolute;
+    width:10em;
+    height:2em;
+    border-style:groove;
+    border-color:black;
+    text-align:center; 
+}
+#stp1_firstname{
+    position:absolute;
+    top:16em;
+    left:15em;
+}
+#stp1_lastname{
+    position:absolute;
+    top:16em;
+    left:35em;
+}
+#stp1_keyboard_cont{
+    position:absolute;
+    top:20em;
+    height:25em;
+    width:100%;
+    left:0;
+    display: grid; /* Switch to Grid Layout */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid columns */
+    grid-auto-rows: 1fr; /* Equal height for rows */
+    gap: 1em; /* Optional spacing between items */
+
+}
+
+
+
+/*
+e56e0b orange
+c75e17 orange darker
+
+*/
+
+
+
+
