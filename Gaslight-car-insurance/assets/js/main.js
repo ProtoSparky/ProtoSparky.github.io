@@ -179,16 +179,22 @@ function sWindow(){
     subhead.id = "stp1_subhead";
     swindow.appendChild(subhead);
 
+    const warn = document.createElement("div");
+    warn.innerHTML = "<i>Due to security concerns, regular keyboard inputs and the backspace key has been disabled and removed. Please enter a first name and last name that is no longer than 10 characters. The use of special characters is strongly advised. </i>";
+    warn.id = "stp1_warn";
+    swindow.appendChild(warn);
+
     const firstname = document.createElement("div");
     firstname.id = "stp1_firstname";
     firstname.className  ="stp1_name";
-    firstname.innerHTML = "Firstname";
+    firstname.innerHTML = "First name";
+    firstname.style.backgroundColor = "#aaaaaa";
     swindow.appendChild(firstname);
 
     const lastname = document.createElement("div");
     lastname.id = "stp1_lastname";
     lastname.className  ="stp1_name";
-    lastname.innerHTML = "Lastname";
+    lastname.innerHTML = "Last name";
     swindow.appendChild(lastname);
 
     const keyboard_cont = document.createElement("div");
@@ -225,10 +231,14 @@ function sWindow(){
             container.appendChild(btn);
         }
 
+        //ok button
         const btn = document.createElement("button");
+        btn.id = "stp1_ok_btn";
         btn.innerHTML = "OK";
         btn.addEventListener("click",function(){
             Store.steps["0"].current_step = Store.steps["0"].current_step + 1;
+            document.getElementById("stp1_lastname").style.backgroundColor = "#aaaaaa";
+            document.getElementById("stp1_firstname").style.backgroundColor = "#bdc3c7";
         });
         container.appendChild(btn);
 
@@ -237,11 +247,15 @@ function sWindow(){
     function type_letter(letter){
         if(Store.steps["0"].current_step == 0){
             //add to firstname
-            Store.steps["0"].firstname = Store.steps["0"].firstname.concat(letter);
+            if(Store.steps["0"].firstname.length + 1 != 10){
+                Store.steps["0"].firstname = Store.steps["0"].firstname.concat(letter);
+            }
         }
         else{
             //add to lastname
-            Store.steps["0"].lastname = Store.steps["0"].lastname.concat(letter);
+            if(Store.steps["0"].lastname.length + 1 != 10){
+                Store.steps["0"].lastname = Store.steps["0"].lastname.concat(letter);
+            }
         }
         document.getElementById("stp1_keyboard_cont").innerHTML = "";
         spawnBTNS();

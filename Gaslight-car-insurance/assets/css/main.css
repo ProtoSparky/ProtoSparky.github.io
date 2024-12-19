@@ -26,10 +26,6 @@
 }
 
 
-button:hover {
-    background-color: var(--col_highlight_TXT);    
-}
-
 #Fade2red{
     background-color:var(--col_bg_content);
     transition: background-color 0.3s ease-in-out;
@@ -226,34 +222,38 @@ button:hover {
 }
 #stp1_subhead{
     position:absolute;
-    top:10em;
+    top:8em;
     left:50%;
     transform:translate(-50%, 0);
     color:black;
     font-size:large;
+}
+#stp1_warn{
+    position:absolute;
+    top:14em;
+    color:red;
+    left:2em;
+    width:56em;
+    font-size:medium; 
 }
 
 .stp1_name{
     position:absolute;
     width:10em;
     height:2em;
-    border-style:groove;
-    border-color:black;
     text-align:center; 
+    border-style:groove;
+    top:18em;
 }
 #stp1_firstname{
-    position:absolute;
-    top:16em;
-    left:15em;
+    left:15em; 
 }
 #stp1_lastname{
-    position:absolute;
-    top:16em;
     left:35em;
 }
 #stp1_keyboard_cont{
     position:absolute;
-    top:20em;
+    top:23em;
     height:25em;
     width:100%;
     left:0;
@@ -262,6 +262,9 @@ button:hover {
     grid-auto-rows: 1fr; /* Equal height for rows */
     gap: 1em; /* Optional spacing between items */
 
+}
+#stp1_ok_btn{
+    color:var(--col_success);
 }
 
 
