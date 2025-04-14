@@ -1,0 +1,80 @@
+body{
+    background-color: #006f91;
+    font-family:win95;
+}
+#header{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, 0%);
+    width:25em;
+    height:7.5em;
+    border-color:black;
+    border-width:5px;
+    border-style:solid;
+
+}
+#head_text{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    text-wrap:nowrap;
+    font-size:4em;
+    font-weight:bold;  
+}
+#slogan{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, 0%);
+    text-wrap:nowrap;
+    bottom:-2em;
+    font-size:2em;
+}
+#storefront{
+    position:absolute; 
+    left:5%;
+    top:13em;
+    width:40%;
+    height:15em;
+}
+#products{
+    position:absolute;
+    right:5%;
+    top:13em;
+    width:40%;
+    height:30em;
+}
+#st_head{
+    position:absolute;
+    top:1em;
+    left:50%;
+    transform:translate(-50%,0);
+    font-size:2em;
+}
+#st_list{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, 0);
+    top:3em;
+    font-size:1.5em;
+}
+
+@font-face {
+    font-family:win95;
+    src: url(../fonts/W95FA.otf);
+}
+td{
+    width:8em;
+    height:8em;
+    font-size:1.25em;
+}
+#tr_img{
+    width:4em;
+}
+#tr_guarantee{
+    position:absolute;
+    bottom:4em;
+    width:16em;
+    right:3em;
+    font-size:1.25em;
+}
